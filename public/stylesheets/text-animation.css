@@ -25,7 +25,7 @@ body{
     font-weight: 690;
     letter-spacing: 8px;
     margin-bottom: 20px;
-    background: black;
+    background: white;
     position: relative;
     animation: text1 3s 1;
     content: "W E L C O M E";
@@ -80,7 +80,7 @@ body{
 
 @keyframes text1 {
     0%{
-        color: black;
+        color: white;
         margin-bottom: -40px;
     }
     30%{
@@ -99,16 +99,16 @@ body{
 
 @keyframes text3 {
     0%{
-        color: black;
+        color: white;
         margin-bottom: -40px;
     }
     30%{
-        color: black;
+        color: white;
         letter-spacing: 25px;
         margin-bottom: -40px;
     }
     85%{
-        color: black;
+        color: white;
         letter-spacing: 8px;
         margin-bottom: -40px;
     }
