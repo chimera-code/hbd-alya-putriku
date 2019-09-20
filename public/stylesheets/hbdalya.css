@@ -28,7 +28,7 @@
   z-index: 1;
 }
 .text {
-  color: white;
+  color: black;
   position: absolute;
   transition: opacity 300ms;
   font-size: 50px;
