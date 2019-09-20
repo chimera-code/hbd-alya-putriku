@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: #000;
+}
+.text1{
+    color: red;
+    font-size: 60px;
+    font-weight: 690;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    background: black;
+    position: relative;
+    animation: text1 3s 1;
+    content: "W E L C O M E";
+}
+.text2{
+    font-size: 30px;
+    font-family: cursive;
+    color: orange;
+    margin-bottom: 20px;
+    content: "Syiffa Alya Fika Fadhia";
+}
+.text3{
+    font-size: 30px;
+    font-style: initial;
+    font-family: cursive;
+    color: yellow;
+    animation: text3 4s 1;
+    content: "Happy Birthday";
+}
+.text4{
+    font-size: 30px;
+    font-style: initial;
+    font-family: cursive;
+    color: green;
+    animation: text3 5s 1;
+    content: "Semoga Panjang Umur";
+}
+.text5{
+    font-size: 30px;
+    font-style: initial;
+    font-family: cursive;
+    color: blue;
+    animation: text3 6s 1;
+    content: "Sehat Selalu";
+}
+.text6{
+    font-size: 30px;
+    font-style: initial;
+    font-family: cursive;
+    color: indigo;
+    animation: text3 7s 1;
+    content: "Dilancarin Terus Rejekinya";
+}
+.text7{
+    font-size: 30px;
+    font-style: initial;
+    font-family: cursive;
+    color: purple;
+    animation: text3 8s 1;
+    content: "Semoga yang Dicita-citakan tercapai";
+}
+
+@keyframes text1 {
+    0%{
+        color: black;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+    90%{
+        letter-spacing: 8px;
+        margin-bottom: -10px;
+    }
+}
+
+@keyframes text3 {
+    0%{
+        color: black;
+        margin-bottom: -40px;
+    }
+    30%{
+        color: black;
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        color: black;
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+    90%{
+        letter-spacing: 8px;
+        margin-bottom: -10px;
+    }
+}
+
